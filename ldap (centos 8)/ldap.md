@@ -33,6 +33,7 @@ podman run -dt --name 389ds-ldap -p 3389:3389  -v ~/389ds/:/data:Z -e DS_SUFFIX=
 ```
 ![Alt text](./images/ldap%20run%20container%201,2.png)
 
+![Alt text](<images/ldap run container 1,2.png>)
 
 This command sets up a container named 389ds-ldap with the specified configuration.
 
