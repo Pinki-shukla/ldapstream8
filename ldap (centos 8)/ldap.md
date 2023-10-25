@@ -31,7 +31,7 @@ Start a 389 Directory Server container using Podman with the following command:
 ```
 podman run -dt --name 389ds-ldap -p 3389:3389  -v ~/389ds/:/data:Z -e DS_SUFFIX=dc=finoptaplus,dc=com -e DS_DM_PASSWORD=pinkishukla docker.io/389ds/dirsrv
 ```
-![Alt text](/images/ldap%20run%20container%201,2.png)
+![Alt text](./images/ldap%20run%20container%201,2.png)
 
 
 This command sets up a container named 389ds-ldap with the specified configuration.
