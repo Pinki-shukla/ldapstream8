@@ -47,7 +47,7 @@ On your CentOS machine, install LDAP utilities using the following command:
 ```
 sudo yum install openldap-clients
 ```
-![Alt text](/images/ldap%20utils.png)
+![Alt text](./images/ldap%20utils.png)
 
 # Step 2: Check and Create Suffix
  if suffix not create then create with this command
@@ -112,7 +112,7 @@ And now create all files one by one by using vim command and add data .
 vim errorCode.ldif
 ```
 
-![Alt text](/images/add%20error.ldif%20file.png)
+![Alt text](./images/add%20error.ldif%20file.png)
 
 
 ```
@@ -2195,14 +2195,14 @@ The command is used to add data to an LDAP directory by connecting to the LDAP s
 
 
 
-![Alt text](/images/ldap%20add.png)
+![Alt text](./images/ldap%20add.png)
 
 # Step 5 : Install Apache Directory Studio :-
  https://directory.apache.org/studio/download/download-linux.html by using this link.
 
 - <b>Note :- To use apache Directory studio you need to install JDK.
 
-![Alt text](/images/apache%20directory%20studio%20installed.png)
+![Alt text](./images/apache%20directory%20studio%20installed.png)
 
 # Step 6 : Install JDK by using this command:-
 
