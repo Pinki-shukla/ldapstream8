@@ -54,7 +54,7 @@ Use this command to check Directory have been created or not:
 Start a 389 Directory Server container using Podman with the following command:
 
 ```
-podman run -dt --name 389ds-ldap -p 3389:3389  -v ~/389ds/:/data:Z -e DS_SUFFIX=dc=finoptaplus,dc=com -e DS_DM_PASSWORD=pinkishukla docker.io/389ds/dirsrv
+podman run -dt --name 389ds-ldap -p 3389:3389  -v ~/389ds/:/data:Z -e DS_SUFFIX=dc=finoptaplus,dc=com -e DS_DM_PASSWORD=pinkishukla quay.io/389ds/dirsrv
 ```
 
 ![Alt text](<images/ldap run container 1,2.png>)
