@@ -140,7 +140,7 @@ And now create all files one by one by using vim command and add data .
 
 
 ```
-Vim errorCode.ldif 
+vim errorCode.ldif 
 ```
 
 - <b>Add data in errorCode.ldif file</b>
