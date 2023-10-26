@@ -203,7 +203,7 @@ changetype: modify
 add: objectclasses
 objectclasses: ( errorcodeptaplus-oid NAME 'errorcodeptaplus' SUP top STRUCTURAL MUST (ErrorSource $ PTAErrorcode $ NativeErrorCode $ HTTPCode $ StatusCode $ ErrorMessage ) MAY (TroubleshootMessage $ HTTPCodeDescription $ NativeErrorMessage $ NativeErrorDescription) X-ORIGIN ( 'Fino PtaPlus' 'user defined' ) )
 ```
-- <b>Add data in business.ldif file</b>
+- <b>Add data in businessTypes.ldif file</b>
 ```
 vim businessTypes.ldif
 ```
