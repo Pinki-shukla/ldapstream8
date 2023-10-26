@@ -71,7 +71,7 @@ On your CentOS machine, install LDAP utilities using the following command:
 ```
 sudo yum install openldap-clients
 ```
-![Alt text](/images/ldap%20utils.png)
+![Alt text](./images/ldap%20utils.png)
 
 # Step 2: Check and Create Suffix
  if suffix not create then create with this command
@@ -4426,7 +4426,7 @@ The command is used to add data to an LDAP directory by connecting to the LDAP s
 
 
 
-![Alt text](/images/ldap%20add.png)<br>
+![Alt text](./images/ldap%20add.png)<br>
 
 - <b>Note:-</b> Here you have to enter the password which have been given while creating LDAP Server.<br>
 
@@ -4437,7 +4437,7 @@ The command is used to add data to an LDAP directory by connecting to the LDAP s
 
 - <b>Note :- To use apache Directory studio you need to install JDK.<br>
 
-![Alt text](/images/apache%20directory%20studio%20installed.png)
+![Alt text](./images/apache%20directory%20studio%20installed.png)
 
 ![](images/need%20java%20to%20run%20studio.png)<br>
 
